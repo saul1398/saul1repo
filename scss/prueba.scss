@@ -1,0 +1,27 @@
+$color-primary: white;
+@import "_nav";
+@import "main";
+@import "_footer";
+
+.contenedor__padre{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+   
+    "main main main "
+   
+    
+    "footer footer footer";
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+footer ul{
+    padding-left: 1px;
+}

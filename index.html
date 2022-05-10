@@ -4,42 +4,275 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>FLEXBOX</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/pruebacss.css">
+    <title>index</title>
 </head>
 <body>
-    <nav>  
-        <ul>
-            <li>
-                <a href="">home</a>
-            </li>
-            <li>
-                <a href="">home</a>
-            </li>
-            <li>
-                <a href="">home</a>
-            </li>
-            <li>
-                <a href="">home</a>
-            </li>
-        </ul> 
-
-    </nav>
+  <div class="contenedor__padre">
     <header>
-        <div>
-            <h1>saul</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet eaque consequuntur rerum eos suscipit quisquam asperiores minima sequi? Error aliquid modi voluptatem exercitationem libero repellendus debitis voluptatum similique. Fugiat.</p>
-        </div>
-        <img src="https://www.dior.com/couture/var/dior/storage/images/28905762/7-esl-ES/cover-dior-homme-sport-20224_1440_1200.jpg" alt="" width="200" height="150">
-    </header>
-    <main>
-        <section>
-            <h1>hhhhhhhhhhhhhhhhhhsssssssssss</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas nihil cupiditate culpa nisi tempore nostrum sunt voluptatibus adipisci velit vitae, eum error obcaecati. Temporibus totam molestiae modi pariatur eveniet. Ut.
-            Minima, aperiam adipisci officia, est quos debitis, ipsa vitae sint dolore saepe ex similique accusamus autem voluptatibus sapiente nisi mollitia distinctio molestias. Aspernatur qui quibusdam odio laudantium commodi. Qui, veniam.
-        </p>
-        </section>
-    </main>
+      <nav class="navegador">
+        <div class="navegadorprimero">
+          <div>
+            <a href="paginas/usuario.html">
+             <ion-icon name="person-outline"></ion-icon>
+            </a>
+          </div>
+          <div>
+             <a href="index.html">
+            <ion-icon name="cart-outline"></ion-icon>
+            </a>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+             SEDES
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">España</a></li>
+              <li><a class="dropdown-item" href="#">Francia</a></li>
+              <li><a class="dropdown-item" href="#">Canada</a></li>
+                       
+            </ul>
+          </div>
+              
     
+        </div>
+        <div class="navegadorsegundo">
+          <div class="navegadorsegundo_1">
+                       
+            <div> <li class="ropa"> <a href="paginas/ropa.html">Ropa</a></li></div>
+            <div> <li class="casco"> <a href="paginas/cascos.html">Cascos</a></li></div>
+                         
+                         
+          </div>
+         
+                        
+    
+          <div class="empresalogo">
+            <a href="index.html">
+            <img src="imagenes/Logo/rocky-mountain-logo.png" alt="" width="150px" height="110px">
+            </a>
+          </div>
+          <div class="navegadorsegundo_2">
+           <div> <li class="ropa"> <a href="index.html">Accesorios</a></li></div>
+            <div> <li class="casco"> <a href="paginas/nosotros.html"> Nosotros</a></li></div>
+                        
+    
+          </div>
+    
+                   
+    
+        </div>
+    
+    
+      </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark  " style="background-color: #2a2b26;"> 
+                
+        <div class="container-fluid" >
+          <a class="navbar-brand" href="#" ><img src="imagenes/Logo/rocky-mountain-logo.png" alt="" width="50px" height="50px" ></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="paginas/cascos.html">Cascos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="paginas/ropa.html">Ropa</a>
+              </li>
+              <li class="nav-item">
+               <a class="nav-link " href="paginas/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="paginas/usuario.html">Registrase</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <main>
+      <aside class="aside1">
+       <div class="flex1">
+                
+             <h1>ALLEZ MAXIMO!</h1>
+                <p>Maxime Marotte vuelve al podio de la Copa del Mundo con un segundo puesto
+                    ¡y un segundo lugar en la clasificación general! <br> Sus compañeros encontraron el éxito con un
+                    7º puesto para Luca Braidot, 12º para Martina Berta y 2º para Sara Cortinovis (U23).
+                    ¡A continuación, Albstadt!</p> <br>
+                 <a href="https://www.todomountainbike.net/videos/video-resumen-short-track-copa-mundo-xco-petropolis-2022" target="_blank">
+                 <button class="boton_leer"> Leer noticia </button></a>
+                
+             
+
+                </div>
+      </aside>
+      <aside class="aside2">
+            <div class="flex2">
+                <h2>Competencia de verano en Londres</h2>
+                <p>¡El campo fue salvaje, los fanáticos estaban en movimiento y el equipo se sentía genial! <br>
+                 A continuación, Fort William, Escocia, 21 y 22 de mayo.
+                </p> <br>
+                <a href="https://www.redbull.com/co-es/uci-mtb-world-cup-petropolis-resultados-reporte-carreras" target="_blank">
+                <button class="boton_leer">ver el sindicato</button></a>
+
+            </div>
+      </aside>
+      <div class="sectorbot" >
+        <div class="container">
+          <div class="row">
+            <div class="col" style="border: double black;">
+              <form action="">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                 </div>
+                <div class="mb-3">
+                 <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu Consulta</label>
+                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-dark mb-3">Enviar</button>
+                </div>
+               </form>
+            </div>
+         
+            <div class="col ">
+
+              <div class="card" style="width: 18rem;">
+                <img src="imagenes/bicicletas/santa cruz nomada.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                 <h5 class="card-title">Enduro 2015</h5>
+                 <p class="card-text" style="color: black;">este modelo de DRB Bikes es una gran opción para principiantes en BMX.</p>
+                <a href="#" class="btn btn-primary">ver mas</a>
+                 </div>
+                </div>
+                  
+            </div>
+            <div class="col">
+
+              <div class="card" style="width: 18rem; ">
+                <img src="imagenes/bicicletas/highball_black.jpg" class="card-img-top" alt="..." >
+               <div class="card-body">
+                   <h5 class="card-title">Highball 2021</h5>
+                   <p class="card-text" style="color: black;">ideal para quien inicia en ciclismo de montaña.</p>
+                  <a href="#" class="btn btn-primary">ver mas</a>
+                </div>
+              </div>
+                      
+            </div>
+                        
+                    
+          </div>
+        </div>
+            <section class="caruselindex" style="display: flex; justify-content: center; ">
+             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel ">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="imagenes/bicicletas/nomada20.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/bicicletas/enduro.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/bicicletas/santa cruz nomada.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+             </div>
+            </section>
+      </div>
+    </main>
+         
+    <footer class="flex_footer">
+      <div class="flex_redes">
+        <div>
+         <img src="imagenes/Logo/logo_footer.jpg" alt="" width="150px" height="110px">
+        </div>
+        <div> 
+           <h2>HELL ROAD</h2>
+        </div>
+                
+        <div class=" redes1">
+          <div>
+           <a href="https://twitter.com/" target="_blank">
+             <ion-icon name="logo-twitter" ></ion-icon>
+            </a>
+          </div>
+          <div>
+           <a href="https://www.facebook.com/" target="_blank">
+            <ion-icon name="logo-facebook"></ion-icon>
+           </a>
+          </div>
+          <div> 
+            <a href="https://www.youtube.com/" target="_blank">
+            <ion-icon name="logo-youtube"></ion-icon></a>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/" target="_blank">
+           <ion-icon name="logo-instagram"></ion-icon></a>
+          </div>             
+           
+        </div>
+      </div>    
+      <div class="informacion">
+        <div class="sucursales">
+          <h3>Sucursales</h3>
+          <ul>
+            <li>Nuñez <ion-icon name="call-outline"></ion-icon> 11660829315</a></li>
+            <li>San Isidro <ion-icon name="call-outline"></ion-icon> 11660829315</a></li>
+            <li>Palermo <ion-icon name="call-outline"></ion-icon> 11660829315</a></li>
+            <li>Vicente López <ion-icon name="call-outline"></ion-icon> 11660829315</a></li>
+            <li>Recoleta<ion-icon name="call-outline"></ion-icon> 11660829315</a></li>
+          </ul>
+    
+        </div>
+        <div class="shop">
+          <h4>Shop</h4>
+           <ul>
+            <li><a href="paginas/accesorios.html">Accesorios</a></li>
+            <li><a href="paginas/cascos.html">Cascos</a></li>
+            <li><a href="paginas/ropa.html">Indumentaria</a></li>
+            <li><a href="paginas/nosotros.html">Nosotros</a> </li>
+                    
+          </ul>
+    
+        </div>
+        <div class="nosotros">
+          <h5> Nosotros</h5>
+          <ul>
+            <li>quienes somos</li>
+            <li>Taller</li>
+            <li>contactanos</li>
+          </ul>
+    
+        </div>
+        <div class="qr">
+         <img src="imagenes/Logo/logos_redes/qr.svg" alt="" width="150px" height="110px">
+    
+        </div>
+    
+      </div> 
+    
+    
+    </footer>
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.flex_footer{
+    color: aliceblue;
+    background-color: black;
+    flex-wrap: wrap;
+  
+    flex-direction:row;
+    ion-icon {
+        color: rgb(246, 246, 248);
+        
+     
+      }
+      .flex_redes{
+ 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       align-items: center;
+     
+       .redes1{
+ 
+        display: flex;
+         flex-direction: row;
+         div{
+            margin: 15px;
+             }
+             
+       }
+       
+     }
+     .informacion {
+        
+      h3,h4,h5{
+        border-bottom: solid white;
+        width: 100px
+
+      }  
+      .shop{
+          a {color: white;
+          
+          
+          text-decoration: none;
+      }
+    }
+        
+        .derechos{
+            margin-bottom: 30px;
+         }
+   
+    }
+}
+@media screen and (min-width:768px){
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        
+    }
+
+.flex_footer{
+    color: aliceblue;
+    background-color: black;
+    flex-wrap: wrap;
+
+    height: 40vh;
+        ion-icon {
+            color: rgb(223, 136, 49);
+            
+         
+          }
+          .flex_redes{
+     
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+           align-items: center;
+
+           .redes1{
+     
+            display: flex;
+             flex-direction: row;
+             div{
+                margin: 15px;
+                 }
+           }
+         
+         }
+          .informacion{
+            display: flex;
+               flex-direction: row;
+            justify-content: space-around;
+            li{
+                list-style: none;
+              }
+            
+            h3,h4,h5{
+                border-bottom: solid rgb(252, 248, 248);
+                width: 100px
+        
+              }  
+              .shop{
+                  
+                   a{
+                      color:$color-primary
+                  }
+               
+            }
+                
+                .derechos{
+                    margin-bottom: 30px;
+                 }
+           }
+    }
+    
+    
+   
+   
+   
+     
+   
+
+
+
+
+
+}
+     
+   
+     
+      
+     
+
+
+

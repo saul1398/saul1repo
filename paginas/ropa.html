@@ -4,330 +4,383 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../inicio.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/pruebacss.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav class="navegador">
-            <div class="navegadorprimero">
-                <div>
-                <a href="usuario.html">
-                    <ion-icon name="person-outline"></ion-icon>
-                </a>
-                </div>
-                <div>
-                    <a href="ropa.html">
-                        <ion-icon name="cart-outline"></ion-icon>
-                    </a>
-                 </div>
+    <div class="contenedor__padre">
 
-            </div>
-            <div class="navegadorsegundo">
-                <div class="navegadorsegundo_1">
+
+        <header>
+            <nav class="navegador">
+                <div class="navegadorprimero">
+                    <div>
+                    <a href="usuario.html">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </a>
+                    </div>
+                    <div>
+                        <a href="../index.html">
+                            <ion-icon name="cart-outline"></ion-icon>
+                        </a>
+                     </div>
+    
+                </div>
+                <div class="navegadorsegundo">
+                    <div class="navegadorsegundo_1">
+                       
+                        <div> <li class="ropa"> <a href="ropa.html">Ropa</a></li></div>
+                         <div> <li class="casco"> <a href="cascos.html">Cascos</a></li></div>
+                         
+                         
+                    </div>
+                  
+                        
+    
+                    <div class="empresalogo">
+                        <a href="../index.html">
+                         <img src="../imagenes/Logo/rocky-mountain-logo.png" alt="" width="150px" height="110px">
+                        </a>
+                    </div>
+                    <div class="navegadorsegundo_2">
+                        <div> <li class="ropa"> <a href="../index.html">Accesorios</a></li></div>
+                        <div> <li class="casco"> <a href="nosotros.html"> Nosotros</a></li></div>
+                        
+    
+                    </div>
+    
                    
-                    <div> <li class="ropa"> <a href="ropa.html">Ropa</a></li></div>
-                     <div> <li class="casco"> <a href="cascos.html">Cascos</a></li></div>
-                     
-                     
+    
                 </div>
-                    
-
-                <div class="empresalogo">
-                    <a href="../index.html">
-                     <img src="../imagenes/Logo/rocky-mountain-logo.png" alt="" width="150px" height="110px">
-                    </a>
+    
+    
+            </nav>
+            <nav class="navbar navbar-expand-lg navbar-dark  " style="background-color: #2a2b26;"> 
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="../imagenes/Logo/rocky-mountain-logo.png" alt="" width="50px" height="50px"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="cascos.html">Cascos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="ropa.html">Ropa</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="usuario.html">Registrase</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <div class="navegadorsegundo_2">
-                    <div> <li class="ropa"> <a href="../index.html">Accesorios</a></li></div>
-                    <div> <li class="casco"> <a href="nosotros.html"> Nosotros</a></li></div>
-                    
-
-                </div>
-
-               
-
-            </div>
-
-
-        </nav>
-
-    </header>
-    <main class="main_cascos" >
-        <div class="flex11">
-        
-            <div class="treck ediimagen">
-               <div>
-                    <img src="../imagenes/Ropa/ropa1.jpg" alt="" width="240" height="250" >
-                </div>
-                <div class="precio">
-                    <p>$15800</p>
-                </div>
-                <div>
-                    <p><b> Casteli DM </b></p>       
-                </div>
-                <div>
-                <form class="colores">
-                    <div>Rojo</div>
-                    <input type="radio" name="color" value="rojo" />
-                    <div>Azul</div>
-                    <input type="radio" name="color" value="azul" />
-                   </form>
-                </div>
-                <div class="compra">
-                    <button>Agregar</button>
-                </div>
-                
-            </div>
-            <div class="santacruz ediimagen">
-                <div>
-                    <img src="../imagenes/Ropa/ropa2.jpg" alt=""width="240" height="250">
-                </div>
-                <div class="precio">
-                    <p>$11500</p>
-                </div>
-                <div>
-                    <p><b> Alphine Maraton </b></p>       
-                </div>
-                <div>
-                <form class="colores">
-                    <div>Negro</div>
-                    <input type="radio" name="color" value="Negro" />
-                    <div>Rojo</div>
-                    <input type="radio" name="color" value="Rojo" />
-                   </form>
-                </div>
-                <div class="compra">
-                    <button>Agregar</button>
-                </div>
-
-            </div>
-
-            <div class="nomada ediimagen">
-                <div>
-                    <img src="../imagenes/Ropa/ropa3.jpg" alt="" width="240" height="250">
-                </div>
-                <div class="precio">
-                    <p>$15500</p>
-                </div>
-                <div>
-                    <p><b> tiekou maillot </b></p>       
-                </div>
-                <div>
-                <form class="colores">
-                    <div>Celeste</div>
-                    <input type="radio" name="color" value="celeste" />
-                    <div>Verde</div>
-                    <input type="radio" name="color" value="verde" />
-                   </form>
-                </div>
-                <div class="compra">
-                    <button>Agregar</button>
-                </div>
-            </div>
-
-            <div class="highball ediimagen">
-                <div>
-                 <img src="../imagenes/Ropa/ropa4.jpg" alt=""width="240" height="250">
-                </div>
-                <div class="precio">
-                    <p>$24500</p>
-                </div>
-                <div>
-                    <p><b> Alphines Star</b></p>       
-                </div>
-                <div>
-                <form class="colores">
-                    <div>Verde</div>
-                    <input type="radio" name="color" value="verde" />
-                    <div>Camuflado</div>
-                    <input type="radio" name="color" value="Camuflado" />
-                   </form>
-                </div>
-                <div class="compra">
-                    <button>Agregar</button>
-                </div>
-
+              </nav>
+    
+        </header>
+        <main class="main_ropa" >
+            <div class="flex11">
             
-               
-            </div>
-        </div>
-        
-        <div class="flex22">
-
-            <div class="enduro ediimagen">
-                <div>
-                 <img src="../imagenes/Ropa/ropa5.jpg" alt=" "width="240" height="250">
+                <div class="treck ediimagen">
+                   <div>
+                        <img src="../imagenes/Ropa/ropa1.jpg" alt="" width="240" height="250" >
+                    </div>
+                    <div class="precio">
+                        <p>$15800</p>
+                    </div>
+                    <div>
+                        <p><b> Casteli DM </b></p>       
+                    </div>
+                    <div>
+                    <form class="colores">
+                        <div>Rojo</div>
+                        <input type="radio" name="color" value="rojo" />
+                        <div>Azul</div>
+                        <input type="radio" name="color" value="azul" />
+                       </form>
+                    </div>
+                    <div class="compra">
+                        <button>Agregar</button>
+                    </div>
+                    
                 </div>
-                <div class="precio">
-                    <p>$6500</p>
-                </div>
-                <div>
-                    <p><b>Fox Rider </b></p>       
-                </div>
-                <div>
-                <form class="colores">
-                    <div>Rojo</div>
-                    <input type="radio" name="color" value="rojo" />
-                    <div>Azul</div>
-                    <input type="radio" name="color" value="azul" />
-                   </form>
-                </div>
-                <div class="compra">
-                    <button>Agregar</button>
-                </div>
-            
-             
-            </div>
-
-            <div class="bronson ediimagen">
-                <div>
-                 <img src="../imagenes/Ropa/ropa6.jpg" alt=""width="240" height="250">
-                </div>
-                <div class="precio">
-                    <p>$5500</p>
-                </div>
-                <div>
-                    <p><b>O´nel  BH </b></p>       
-                </div>
-                <div>
+                <div class="santacruz ediimagen">
+                    <div>
+                        <img src="../imagenes/Ropa/ropa2.jpg" alt=""width="240" height="250">
+                    </div>
+                    <div class="precio">
+                        <p>$11500</p>
+                    </div>
+                    <div>
+                        <p><b> Alphine Maraton </b></p>       
+                    </div>
+                    <div>
                     <form class="colores">
                         <div>Negro</div>
-                        <input type="radio" name="color" value="negro" />
-                        <div>Blanco</div>
-                        <input type="radio" name="color" value="Blanco" />
-                    </form>
-                </div>
-                <div class="compra">
-                    <button>Agregar</button>
-                </div>
-           
-            </div>
-            <div class="casco7 ediimagen">
-                <div>
-                    <img src="../imagenes/Ropa/ropa7.jpg" alt="" width="240" height="250">
-                </div>
-                <div class="precio">
-                    <p>$6500</p>
-                </div>
-                <div>
-                    <p><b> Campera redbull </b></p>       
-                </div>
-                <div>
-                    <form class="colores">
+                        <input type="radio" name="color" value="Negro" />
                         <div>Rojo</div>
-                        <input type="radio" name="color" value="rojo" />
-                        <div>Azul</div>
-                        <input type="radio" name="color" value="azul" />
-                    </form>
+                        <input type="radio" name="color" value="Rojo" />
+                       </form>
+                    </div>
+                    <div class="compra">
+                        <button>Agregar</button>
+                    </div>
+    
                 </div>
-                <div class="compra">
-                    <button>Agregar</button>
-                </div>
-
-            </div>
-            <div class="casco8 ediimagen">
-                <div>
-                    <img src="../imagenes/Ropa/ropa8.jpg" alt="" width="240" height="250">
-                </div>
-                <div class="precio">
-                    <p>$4500</p>
-                </div>
-                <div>
-                    <p><b>Campera Soul </b> </p>       
-                </div>
-                <div>
+    
+                <div class="nomada ediimagen">
+                    <div>
+                        <img src="../imagenes/Ropa/ropa3.jpg" alt="" width="240" height="250">
+                    </div>
+                    <div class="precio">
+                        <p>$15500</p>
+                    </div>
+                    <div>
+                        <p><b> tiekou maillot </b></p>       
+                    </div>
+                    <div>
                     <form class="colores">
-                        <div>Rojo</div>
-                        <input type="radio" name="color" value="rojo" />
-                        <div>Azul</div>
-                        <input type="radio" name="color" value="azul" />
-                    </form>
+                        <div>Celeste</div>
+                        <input type="radio" name="color" value="celeste" />
+                        <div>Verde</div>
+                        <input type="radio" name="color" value="verde" />
+                       </form>
+                    </div>
+                    <div class="compra">
+                        <button>Agregar</button>
+                    </div>
                 </div>
-                <div class="compra">
-                    <button>Agregar</button>
+    
+                <div class="highball ediimagen">
+                    <div>
+                     <img src="../imagenes/Ropa/ropa4.jpg" alt=""width="240" height="250">
+                    </div>
+                    <div class="precio">
+                        <p>$24500</p>
+                    </div>
+                    <div>
+                        <p><b> Alphines Star</b></p>       
+                    </div>
+                    <div>
+                    <form class="colores">
+                        <div>Verde</div>
+                        <input type="radio" name="color" value="verde" />
+                        <div>Camuflado</div>
+                        <input type="radio" name="color" value="Camuflado" />
+                       </form>
+                    </div>
+                    <div class="compra">
+                        <button>Agregar</button>
+                    </div>
+    
+                
+                   
                 </div>
-
             </div>
             
-        </div>
-        
-    </main>
-    <footer class="flex_footer">
-        <div class="flex_redes">
-            <div>
-                <img src="../imagenes/Logo/logo_footer.jpg" alt="" width="150px" height="110px">
-            </div>
-            <div> 
-                <h2>HELL ROAD</h2>
-            </div>
+            <div class="flex22">
+    
+                <div class="enduro ediimagen">
+                    <div>
+                     <img src="../imagenes/Ropa/ropa5.jpg" alt=" "width="240" height="250">
+                    </div>
+                    <div class="precio">
+                        <p>$6500</p>
+                    </div>
+                    <div>
+                        <p><b>Fox Rider </b></p>       
+                    </div>
+                    <div>
+                    <form class="colores">
+                        <div>Rojo</div>
+                        <input type="radio" name="color" value="rojo" />
+                        <div>Azul</div>
+                        <input type="radio" name="color" value="azul" />
+                       </form>
+                    </div>
+                    <div class="compra">
+                        <button>Agregar</button>
+                    </div>
                 
-            <div class=" redes1">
-                <div>
-                 <a href="https://twitter.com/" target="_blank">
-                  <ion-icon name="logo-twitter" ></ion-icon>
-                 </a>
+                 
                 </div>
+    
+                <div class="bronson ediimagen">
+                    <div>
+                     <img src="../imagenes/Ropa/ropa6.jpg" alt=""width="240" height="250">
+                    </div>
+                    <div class="precio">
+                        <p>$5500</p>
+                    </div>
+                    <div>
+                        <p><b>O´nel  BH </b></p>       
+                    </div>
+                    <div>
+                        <form class="colores">
+                            <div>Negro</div>
+                            <input type="radio" name="color" value="negro" />
+                            <div>Blanco</div>
+                            <input type="radio" name="color" value="Blanco" />
+                        </form>
+                    </div>
+                    <div class="compra">
+                        <button>Agregar</button>
+                    </div>
+               
+                </div>
+                <div class="casco7 ediimagen">
+                    <div>
+                        <img src="../imagenes/Ropa/ropa7.jpg" alt="" width="240" height="250">
+                    </div>
+                    <div class="precio">
+                        <p>$6500</p>
+                    </div>
+                    <div>
+                        <p><b> Campera redbull </b></p>       
+                    </div>
+                    <div>
+                        <form class="colores">
+                            <div>Rojo</div>
+                            <input type="radio" name="color" value="rojo" />
+                            <div>Azul</div>
+                            <input type="radio" name="color" value="azul" />
+                        </form>
+                    </div>
+                    <div class="compra">
+                        <button>Agregar</button>
+                    </div>
+    
+                </div>
+                <div class="casco8 ediimagen">
+                    <div>
+                        <img src="../imagenes/Ropa/ropa8.jpg" alt="" width="240" height="250">
+                    </div>
+                    <div class="precio">
+                        <p>$4500</p>
+                    </div>
+                    <div>
+                        <p><b>Campera Soul </b> </p>       
+                    </div>
+                    <div>
+                        <form class="colores">
+                            <div>Rojo</div>
+                            <input type="radio" name="color" value="rojo" />
+                            <div>Azul</div>
+                            <input type="radio" name="color" value="azul" />
+                        </form>
+                    </div>
+                    <div class="compra">
+                        <button>Agregar</button>
+                    </div>
+    
+                </div>
+                <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <iframe  class ="copa"width="560" height="315" src="https://www.youtube.com/embed/-kQ5K5-LMM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <div class="col " style="color: blanchedalmond;">
+                       <h1>
+                           COPA DEL MUNDO MTB
+                       </h1>
+                       <p>Con la participación de 8 argentinos dió inicio la primera etapa de la Copa del Mundo de MTB, se llevo a cabo en la localidad de Petropolis de Brasil.
+
+                        Los corredores argentinos compitieron en elite (hombres y mujeres) como en sub 23 (sólo hombres). Agustina María Apaza finalizó en el puesto 29no de la general con un tiempo de 1:40:43; mientras que Josefina Casadey se posicionó 47ma (-3 vueltas). La australiana Rebecca Ellen Mcconnel fue la vencedora de esta prueba con un registro final de 1:29:41. En elite masculino, Catriel Soto fue el mejor posicionado al arribar en la 44ta colocación al establecer un crono final de 1:34:17; mientras que a dos vueltas quedaron Jorge Alvaro Macias (65to); Joaquín Plomer (75mo) y Joel Fernando Contreras (78vo). El suizo Nino Schurter (4to en los Juegos Olímpicos Tokyo 2020) fue el primero en arribar con 1:26:52.</p>
+                      </div>
+                     
+                    </div>
+                  </div>
+                
+            </div>
+            
+        </main>
+        <footer class="flex_footer">
+            <div class="flex_redes">
                 <div>
-                    <a href="https://www.facebook.com/" target="_blank">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                    </a>
+                    <img src="../imagenes/Logo/logo_footer.jpg" alt="" width="150px" height="110px">
                 </div>
                 <div> 
-                    <a href="https://www.youtube.com/"target="_blank">
-                     <ion-icon name="logo-youtube"></ion-icon></a>
+                    <h2>HELL ROAD</h2>
                 </div>
-                 <div>
-                    <a href="https://www.instagram.com/" target="_blank">
-                   <ion-icon name="logo-instagram"></ion-icon></a>
-                </div>
-                           
-                 
-            </div>
-        </div>    
-        <div class="informacion">
-            <div class="sucursales">
-                <h3>Sucursales</h3>
-               <ul>
-                        <li>Nuñez <ion-icon name="call-outline"></ion-icon> 11660829315</a></li>
-                        <li>San Isidro <ion-icon name="call-outline"></ion-icon> 11660829315</a></li>
-                        <li>Palermo <ion-icon name="call-outline"></ion-icon> 11660829315</a></li>
-                        <li>Vicente López <ion-icon name="call-outline"></ion-icon> 11660829315</a></li>
-                        <li>Recoleta<ion-icon name="call-outline"></ion-icon> 11660829315</a></li>
-                    </ul>
-    
-            </div>
-            <div class="shop">
-               <h4>Shop</h4>
-                
-                <li><a href="accesorios.html">Accesorios</a></li>
-                        <li><a href="cascos.html">Cascos</a></li>
-                        <li><a href="ropa.html">Indumentaria</a></li>
-                        <li><a href="nosotros.html">Nosotros</a> </li>
                     
-                </ul>
-    
-            </div>
-            <div class="nosotros">
-                    <h5>Sobre Nosotros</h5>
-                    <ul>
-                        <li>quienes somos</li>
-                        <li>Taller</li>
-                        <li>contactanos</li>
+                <div class=" redes1">
+                    <div>
+                     <a href="https://twitter.com/" target="_blank">
+                      <ion-icon name="logo-twitter" ></ion-icon>
+                     </a>
+                    </div>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </div>
+                    <div> 
+                        <a href="https://www.youtube.com/"target="_blank">
+                         <ion-icon name="logo-youtube"></ion-icon></a>
+                    </div>
+                     <div>
+                        <a href="https://www.instagram.com/" target="_blank">
+                       <ion-icon name="logo-instagram"></ion-icon></a>
+                    </div>
+                               
+                     
+                </div>
+            </div>    
+            <div class="informacion">
+                <div class="sucursales">
+                    <h3>Sucursales</h3>
+                   <ul>
+                            <li>Nuñez <ion-icon name="call-outline"></ion-icon> 11660829315</a></li>
+                            <li>San Isidro <ion-icon name="call-outline"></ion-icon> 11660829315</a></li>
+                            <li>Palermo <ion-icon name="call-outline"></ion-icon> 11660829315</a></li>
+                            <li>Vicente López <ion-icon name="call-outline"></ion-icon> 11660829315</a></li>
+                            <li>Recoleta<ion-icon name="call-outline"></ion-icon> 11660829315</a></li>
+                        </ul>
+        
+                </div>
+                <div class="shop">
+                   <h4>Shop</h4>
+                    
+                    <li><a href="accesorios.html">Accesorios</a></li>
+                            <li><a href="cascos.html">Cascos</a></li>
+                            <li><a href="ropa.html">Indumentaria</a></li>
+                            <li><a href="nosotros.html">Nosotros</a> </li>
+                        
                     </ul>
-    
-            </div>
-            <div class="qr">
-                    <img src="../imagenes/Logo/logos_redes/qr.svg" alt="" width="150px" height="110px">
-    
-             </div>
-    
-        </div> 
-    
-    
-    </footer>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        
+                </div>
+                <div class="nosotros">
+                        <h5>Sobre Nosotros</h5>
+                        <ul>
+                            <li>quienes somos</li>
+                            <li>Taller</li>
+                            <li>contactanos</li>
+                        </ul>
+        
+                </div>
+                <div class="qr">
+                        <img src="../imagenes/Logo/logos_redes/qr.svg" alt="" width="150px" height="110px">
+        
+                 </div>
+        
+            </div> 
+        
+        
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   
     
 </body>
 </html>

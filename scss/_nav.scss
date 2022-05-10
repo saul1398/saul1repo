@@ -1,0 +1,100 @@
+@media screen and (min-width:425px){
+
+
+.navegador{
+  display: none;
+}
+}
+@media screen and (min-width:768px) {
+  .navegador{
+    display: block;
+  }
+    .navegadorprimero{
+        background-image: linear-gradient(red, rgb(30, 37, 78));
+        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        
+      
+    }
+    
+    
+    .navegadorprimero div{
+        display: inline-block;
+        margin-left: 32px;
+
+        
+        
+    }
+    .navegadorsegundo{
+        display: flex;
+        border: solid black;
+        height: 120px;
+        background-color: rgb(5, 5, 5);
+      
+        font-size: 35px;
+        list-style: none;
+        font-family:'Times New Roman', Times, serif;
+        .navegadorsegundo_1{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            width: 40%;
+          
+            
+          }
+       
+     li a{
+         color:$color-primary;
+        text-decoration: none;
+        }
+        .empresalogo{
+            width: 15%;
+            display: flex;
+         
+            justify-content: center;
+         }
+         
+         .navegadorsegundo_2{
+             display: flex;
+             flex-wrap: wrap;
+             justify-content: space-around;
+             align-items: center;
+             
+             width: 50%
+         }
+         
+    .empresalogo a img{
+     
+
+        animation-name:animacion1;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 8s;}
+
+        @keyframes animacion1 {
+        0%{
+          width: 100px;
+        }
+        25%{
+          width: 50px;
+        
+        }
+        50%{
+  
+          width: 100px;
+          transform: rotatey(360deg);
+  
+        }
+      }
+    }
+    .navbar{
+        display: none;
+    }
+   
+    
+  
+
+    }
